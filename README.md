@@ -1,8 +1,13 @@
 # SQL Agent
 
-## 1. How to run
+## 1. How to install requirements
 
 ```bash
-python -m sql_agent.main
+uv sync
 ```
 
+## 2. How to run
+
+```bash
+uv run start
+```
